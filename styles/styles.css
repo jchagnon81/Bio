@@ -1,0 +1,104 @@
+body {
+    background-color: black;
+    font: Helvetica, sans-serif;
+    font-size: 13pt;
+}
+
+h1, h2, h3 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+    padding-top: 1em;
+}
+
+button {
+    margin: 2em;
+    padding: .7em;
+    background-color: orchid;
+    color: white;
+    border-radius: 1em;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+ul {
+    color: white;
+}
+
+img {
+    margin: 1em;
+}
+
+a:link {
+    color: white;
+}
+a:hover, a:focus {
+    color: orange;
+}
+
+a:visited {
+    color: orchid;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border {
+    border: 1px;
+    border-color: white;
+    border-style: solid; 
+}
+
+article aside {
+    margin: 0;
+    padding: 0;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+article {
+    width: 600px;
+    margin-left: 50px;
+    padding-right: 1em;
+}
+
+.auto {
+    width: auto;
+    margin-left: 50px;
+    padding-right: 1em;
+}
+
+aside {
+    float: right;
+    margin-right: 10em;
+}
+
+article img {
+    margin: 0 1.5em 1em 0;
+    float: left;
+}
+
+div {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    clear: both;
+    padding-top: 1em;
+}
+
+footer p {
+    font-size: 80%;
+    text-align: right;
+    margin-right: 20px;
+}
